@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1661862649743-2799867c32b0?q=80&w=1154&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "WhatsApp Messenger is a fast, simple, and secure messaging application that allows users to send text messages, voice notes, images, videos, documents, and make voice and video calls. It works across mobile and desktop platforms and uses end-to-end encryption to keep personal conversations private and protected at all times.",
+    "size": 78,
+    "reviews": 24500000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 3100000 },
+      { "name": "4 star", "count": 6200000 },
+      { "name": "5 star", "count": 15800000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1661953118591-2f5be524698e?q=80&w=1154&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Instagram is a social media platform designed for sharing photos, videos, reels, and stories with friends and followers. Users can explore trending content, interact through likes and comments, follow creators, and use creative tools such as filters, music, and effects to express themselves visually.",
+    "size": 92,
+    "reviews": 31000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 7800000 },
+      { "name": "5 star", "count": 13400000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the world’s largest video-sharing platform where users can watch, upload, share, and comment on videos. It offers content ranging from entertainment and education to music and live streaming, allowing creators to build audiences and monetize their content globally.",
+    "size": 105,
+    "reviews": 41000000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 6200000 },
+      { "name": "2 star", "count": 3200000 },
+      { "name": "3 star", "count": 6100000 },
+      { "name": "4 star", "count": 10200000 },
+      { "name": "5 star", "count": 15300000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is a digital music and podcast streaming service that gives users access to millions of songs and episodes from artists around the world. It provides personalized playlists, offline listening, and discovery features that adapt to individual listening habits.",
+    "size": 88,
+    "reviews": 23000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2700000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 11200000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1690164919722-f5362e0965a6?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "description": "X is a social networking platform where users can post short messages, share media, and engage in real-time conversations. It is widely used for news updates, public discussions, trending topics, and direct interaction with global audiences.",
+    "size": 74,
+    "reviews": 18000000,
+    "ratingAvg": 3.9,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4200000 },
+      { "name": "2 star", "count": 2800000 },
+      { "name": "3 star", "count": 3900000 },
+      { "name": "4 star", "count": 4200000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://plus.unsplash.com/premium_photo-1682310071124-33632135b2ee?q=80&w=1212&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps provides detailed maps, real-time GPS navigation, traffic updates, and location-based services. Users can explore nearby places, get directions for driving, walking, or public transport, and view satellite imagery and street-level visuals.",
+    "size": 62,
+    "reviews": 16500000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1900000 },
+      { "name": "4 star", "count": 4800000 },
+      { "name": "5 star", "count": 8400000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1662947851950-2a8090a016d7?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Facebook is a social networking service that helps people connect with friends, family, and communities. Users can share posts, photos, videos, join groups, follow pages, and stay updated with events and news from around the world.",
+    "size": 110,
+    "reviews": 29000000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5200000 },
+      { "name": "2 star", "count": 3300000 },
+      { "name": "3 star", "count": 6100000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 7200000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1649180549324-3e03951391aa?q=80&w=1162&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "description": "Google Drive is a cloud storage service that allows users to store, access, and share files securely from any device. It integrates seamlessly with Google Docs, Sheets, and Slides, making collaboration and file management easy and efficient.",
+    "size": 54,
+    "reviews": 9800000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 650000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 4050000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1706879349268-8cb3a9ae739a?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Gmail is a secure and user-friendly email service offering spam protection, smart inbox organization, and seamless integration with Google services. It allows users to manage multiple accounts, search emails efficiently, and communicate professionally.",
+    "size": 50,
+    "reviews": 12000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 3400000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Netflix is a leading streaming service offering a wide variety of movies, TV series, documentaries, and original content. Users can watch anytime, download for offline viewing, and enjoy personalized recommendations based on preferences.",
+    "size": 115,
+    "reviews": 20000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 7700000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "TikTok is a short-form video platform where users can create, watch, and share entertaining videos with music, effects, and filters. It is known for viral trends, creative content, and a powerful recommendation algorithm.",
+    "size": 98,
+    "reviews": 27000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 1700000 },
+      { "name": "3 star", "count": 3600000 },
+      { "name": "4 star", "count": 7200000 },
+      { "name": "5 star", "count": 12400000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1649006865574-8d077cefec17?q=80&w=1161&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "description": "Google Chrome is a fast, secure, and easy-to-use web browser that offers seamless browsing across devices. It features strong security, extensions support, and integration with Google services for productivity and personalization.",
+    "size": 45,
+    "reviews": 15000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1900000 },
+      { "name": "4 star", "count": 4200000 },
+      { "name": "5 star", "count": 7300000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1637592156979-95f44c286423?q=80&w=1213&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Telegram is a cloud-based messaging app focused on speed and security. It supports large group chats, channels, file sharing, bots, and end-to-end encrypted private conversations across multiple devices.",
+    "size": 65,
+    "reviews": 9500000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 750000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 3100000 },
+      { "name": "5 star", "count": 3250000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1683201681334-f25eb7658958?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "LinkedIn is a professional networking platform that helps users connect with colleagues, find jobs, build careers, and share industry knowledge. It is widely used for recruitment, learning, and professional branding.",
+    "size": 80,
+    "reviews": 8900000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1663124178603-e0b15fe90926?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "description": "Google Photos helps users store, organize, and share photos and videos with powerful search and backup features. It uses AI to automatically categorize memories, create albums, and suggest edits.",
+    "size": 58,
+    "reviews": 7600000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 620000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 2630000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1683007002429-deabf420bbe5?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "description": "Zoom is a video conferencing and online meeting platform that enables users to host virtual meetings, webinars, and online collaboration sessions. It is widely used for remote work, education, and professional communication.",
+    "size": 72,
+    "reviews": 6800000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 550000 },
+      { "name": "2 star", "count": 780000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 1970000 }
+    ]
+  }
+]

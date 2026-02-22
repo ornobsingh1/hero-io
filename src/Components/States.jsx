@@ -12,21 +12,21 @@ const States = () => {
           {/* Card 1 */}
           <div>
             <p className="text-sm opacity-80 mb-2">Total Downloads</p>
-            <h3 className="text-5xl font-extrabold mb-2">29.6M</h3>
+            <h3 className="text-5xl font-bold mb-2">29.6M</h3>
             <p className="text-sm opacity-90">21% more than last month</p>
           </div>
 
           {/* Card 2 */}
           <div>
             <p className="text-sm opacity-80 mb-2">Total Reviews</p>
-            <h3 className="text-5xl font-extrabold mb-2">906K</h3>
+            <h3 className="text-5xl font-bold mb-2">906K</h3>
             <p className="text-sm opacity-90">46% More Than Last Month</p>
           </div>
 
           {/* Card 3 */}
           <div>
             <p className="text-sm opacity-80 mb-2">Active Apps</p>
-            <h3 className="text-5xl font-extrabold mb-2">132+</h3>
+            <h3 className="text-5xl font-bold mb-2">132+</h3>
             <p className="text-sm opacity-90">31 More Will Launch</p>
           </div>
         </div>

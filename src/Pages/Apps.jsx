@@ -13,9 +13,9 @@ const Apps = () => {
     : apps;
 
   return (
-    <div>
+    <div className="bg-gray-100">
       <Container>
-        <div className="my-4">
+        <div className="py-4">
           <h1 className="text-3xl font-bold text-center">
             Our All Applications
           </h1>

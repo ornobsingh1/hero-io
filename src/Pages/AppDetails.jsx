@@ -1,13 +1,14 @@
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { ArrowDownToLine, MessageCircleCode, Star } from "lucide-react";
+import { addToStoredDB } from "../utility/addToDB";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
 
   if (loading) return <p>Loading...</p>;
-  const app = apps.find((app) => app.id === Number(id));
+  const app = apps.find((a) => a.id === Number(id));
   if (!app) {
     return <p className="text-center">App Not Found</p>;
   }
@@ -22,6 +23,10 @@ const AppDetails = () => {
     size,
     description,
   } = app;
+
+  const handleAddToLocalStorage = (id) => {
+    addToStoredDB(id);
+  };
   return (
     <div>
       <div className="max-w-6xl mx-auto p-6 bg-white">
@@ -85,7 +90,10 @@ const AppDetails = () => {
             </div>
 
             {/* Install Button */}
-            <button className="cursor-pointer mt-6 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-3 rounded-md transition">
+            <button
+              onClick={() => handleAddToLocalStorage(id)}
+              className="cursor-pointer mt-6 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-3 rounded-md transition"
+            >
               Install Now ({size} MB)
             </button>
           </div>

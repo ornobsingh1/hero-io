@@ -26,6 +26,7 @@ const Home = () => {
               <AppCard key={app.id} app={app} />
             ))}
           </div>
+          
           <div className="flex justify-center items-center mt-6">
             <Link
               to="/apps"

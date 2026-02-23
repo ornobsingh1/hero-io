@@ -1,7 +1,12 @@
+import { Link } from "react-router";
+
 const AppCard = ({ app }) => {
-  const { title, ratingAvg, downloads, image } = app;
+  const { id, title, ratingAvg, downloads, image } = app;
   return (
-    <div className="bg-base-200 hover:bg-base-300 duration-300 border border-gray-100 rounded-2xl shadow-sm p-4 cursor-pointer">
+    <Link
+      to={`/app/${id}`}
+      className="bg-base-200 hover:bg-base-300 duration-300 border border-gray-100 rounded-2xl shadow-sm p-4 cursor-pointer"
+    >
       <div className="">
         <img
           className="h-40 w-full object-cover rounded-xl"
@@ -32,7 +37,7 @@ const AppCard = ({ app }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

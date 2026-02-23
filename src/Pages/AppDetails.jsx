@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { ArrowDownToLine, MessageCircleCode, Star } from "lucide-react";
 import { addToStoredDB } from "../utility/addToDB";
+import AppNotFound from "./AppNotFound";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -10,7 +11,7 @@ const AppDetails = () => {
   if (loading) return <p>Loading...</p>;
   const app = apps.find((a) => a.id === Number(id));
   if (!app) {
-    return <p className="text-center">App Not Found</p>;
+    return <AppNotFound />
   }
 
   const {

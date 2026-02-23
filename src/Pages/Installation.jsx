@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
-import { getStoredApp } from "../utility/addToDB";
-import { ArrowDownToLine, Container, Star } from "lucide-react";
+import { getStoredApp, removeFromStoredDB } from "../utility/addToDB";
+import { ArrowDownToLine, Star } from "lucide-react";
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
@@ -29,6 +29,14 @@ const Installation = () => {
     }
   };
 
+  const handleRemove = (id) => {
+    // localStorage থেকে remove
+    removeFromStoredDB(id);
+
+    // UI (state) থেকেও remove
+    const remaining = install.filter((item) => item.id !== id);
+    setInstall(remaining);
+  };
   return (
     <div className="bg-gray-100 py-12">
       <div className="py-4">
@@ -90,7 +98,10 @@ const Installation = () => {
             </div>
 
             {/* Right Section */}
-            <button className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-md transition cursor-pointer">
+            <button
+              onClick={() => handleRemove(i.id)}
+              className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-md transition cursor-pointer"
+            >
               Uninstall
             </button>
           </div>

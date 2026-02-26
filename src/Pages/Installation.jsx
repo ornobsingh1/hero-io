@@ -38,76 +38,81 @@ const Installation = () => {
     setInstall(remaining);
   };
   return (
-    <div className="bg-gray-100 py-12">
-      <div className="py-4">
-        <h1 className="text-3xl font-bold text-center">Your Installed Apps</h1>
-        <p className="text-gray-500 text-center pt-2">
-          Explore All Trending Apps on the Market developed by us
-        </p>
-      </div>
+    <>
+      <title>Hero IO - Installation</title>
+      <div className="bg-gray-100 py-12">
+        <div className="py-4">
+          <h1 className="text-3xl font-bold text-center">
+            Your Installed Apps
+          </h1>
+          <p className="text-gray-500 text-center pt-2">
+            Explore All Trending Apps on the Market developed by us
+          </p>
+        </div>
 
-      <div className="flex justify-between items-center mb-4 mt-2 w-11/12 mx-auto">
-        <h1 className="text-lg font-semibold">
-          <span>({install.length})</span> Apps Found
-        </h1>
+        <div className="flex justify-between items-center mb-4 mt-2 w-11/12 mx-auto">
+          <h1 className="text-lg font-semibold">
+            <span>({install.length})</span> Apps Found
+          </h1>
 
-        {/* sort */}
-        <label className="form-control">
-          <select
-            value={sortOrder}
-            onChange={(e) => setSortOrder(e.target.value)}
-            className="select select-bordered"
-          >
-            <option value="none">Sort By Price</option>
-            <option value="price-asc">Low-&gt;High</option>
-            <option value="price-desc">High-&gt;Low</option>
-          </select>
-        </label>
-      </div>
+          {/* sort */}
+          <label className="form-control">
+            <select
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value)}
+              className="select select-bordered"
+            >
+              <option value="none">Sort By Price</option>
+              <option value="price-asc">Low-&gt;High</option>
+              <option value="price-desc">High-&gt;Low</option>
+            </select>
+          </label>
+        </div>
 
-      <div className="space-y-4">
-        {sortedItem().map((i) => (
-          <div className="w-11/12 mx-auto bg-white rounded-xl shadow-sm hover:shadow-md transition p-4 flex items-center justify-between">
-            {/* Left Section */}
-            <div className="flex items-center gap-4">
-              {/* App Image */}
-              <img
-                className="w-14 h-14 bg-gray-300 rounded-lg object-cover"
-                src={i.image}
-                alt=""
-              />
+        <div className="space-y-4">
+          {sortedItem().map((i) => (
+            <div className="w-11/12 mx-auto bg-white rounded-xl shadow-sm hover:shadow-md transition p-4 flex items-center justify-between">
+              {/* Left Section */}
+              <div className="flex items-center gap-4">
+                {/* App Image */}
+                <img
+                  className="w-14 h-14 bg-gray-300 rounded-lg object-cover"
+                  src={i.image}
+                  alt=""
+                />
 
-              {/* App Info */}
-              <div>
-                <h3 className="text-base font-semibold text-gray-900">
-                  {i.title}
-                </h3>
+                {/* App Info */}
+                <div>
+                  <h3 className="text-base font-semibold text-gray-900">
+                    {i.title}
+                  </h3>
 
-                <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
-                  <span className="flex items-center gap-1 text-emerald-600">
-                    <ArrowDownToLine size={20} /> {i.downloads}
-                  </span>
+                  <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
+                    <span className="flex items-center gap-1 text-emerald-600">
+                      <ArrowDownToLine size={20} /> {i.downloads}
+                    </span>
 
-                  <span className="flex items-center gap-1 text-orange-500">
-                    <Star size={20} /> {i.ratingAvg}
-                  </span>
+                    <span className="flex items-center gap-1 text-orange-500">
+                      <Star size={20} /> {i.ratingAvg}
+                    </span>
 
-                  <span>{i.size} MB</span>
+                    <span>{i.size} MB</span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Right Section */}
-            <button
-              onClick={() => handleRemove(i.id)}
-              className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-md transition cursor-pointer"
-            >
-              Uninstall
-            </button>
-          </div>
-        ))}
+              {/* Right Section */}
+              <button
+                onClick={() => handleRemove(i.id)}
+                className="bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-md transition cursor-pointer"
+              >
+                Uninstall
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
